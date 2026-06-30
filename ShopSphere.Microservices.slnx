@@ -1,1 +1,26 @@
-<Solution />
+<Solution>
+  <Folder Name="/buildingblocks/" />
+  <Folder Name="/gateway/">
+    <Project Path="ShopSphere.Gateway/ShopSphere.Gateway.csproj" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Auth/">
+    <Project Path="ShopSphere.Auth.API/ShopSphere.Auth.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Notification/">
+    <Project Path="ShopSphere.Notification.API/ShopSphere.Notification.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Order/">
+    <Project Path="ShopSphere.Order.API/ShopSphere.Order.API.csproj" />
+    <Project Path="ShopSphere.Order.Application/ShopSphere.Order.Application.csproj" />
+    <Project Path="ShopSphere.Order.Domain/ShopSphere.Order.Domain.csproj" />
+    <Project Path="ShopSphere.Order.Infrastructure/ShopSphere.Order.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Product/">
+    <Project Path="ShopSphere.Product.API/ShopSphere.Product.API.csproj" />
+    <Project Path="ShopSphere.Product.Application/ShopSphere.Product.Application.csproj" />
+    <Project Path="ShopSphere.Product.Domain/ShopSphere.Product.Domain.csproj" />
+    <Project Path="ShopSphere.Product.Infrastructure/ShopSphere.Product.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>

@@ -1,0 +1,6 @@
+@ShopSphere.Order.API_HostAddress = http://localhost:5136
+
+GET {{ShopSphere.Order.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

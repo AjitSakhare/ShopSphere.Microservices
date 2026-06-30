@@ -1,0 +1,6 @@
+@ShopSphere.Notification.API_HostAddress = http://localhost:5150
+
+GET {{ShopSphere.Notification.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
