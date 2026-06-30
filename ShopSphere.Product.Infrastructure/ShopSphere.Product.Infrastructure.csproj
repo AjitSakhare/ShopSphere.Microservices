@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ShopSphere.Product.Application\ShopSphere.Product.Application.csproj" />
     <ProjectReference Include="..\ShopSphere.Product.Domain\ShopSphere.Product.Domain.csproj" />
   </ItemGroup>
