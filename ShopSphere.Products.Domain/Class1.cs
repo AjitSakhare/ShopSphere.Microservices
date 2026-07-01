@@ -1,4 +1,4 @@
-﻿namespace ShopSphere.Order.Domain
+﻿namespace ShopSphere.Products.Domain
 {
     public class Class1
     {
